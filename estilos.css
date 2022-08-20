@@ -117,7 +117,7 @@ h1,
 #clock{
   font-size: 25px;
   text-align: center;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Quicksand', sans-serif;
   color: #366ed6;
   margin: 10px auto;
 }
@@ -144,28 +144,39 @@ h1,
 
 @media (max-width: 600px) {
   figure{
-    width: 300px;
-    height: 350px;
+    width: 380px;
+    height: 430px;
   }
-
+  figure .frontal{
+    height: 430px;
+  }
   figure .trasera .titulo{
-    font-size: 25px;
-    margin-bottom: 10px;
+    font-size: 36px;
+    margin-bottom: 5px;
   }
   figure .trasera p{
-    font-size: 18px;
-    margin: 2px;
+    font-size: 25px;
+    margin: 1px;
   }
+  
   .mapa{
     margin: 5px auto;
     max-width: 280px;
   }
   h1,
   #clock{
-    font-size: 20px;
+    font-size: 22px;
   }
   .nombre{
-    font-size: 24px;
-    margin-top: 30px;
+    font-size: 35px;
+    margin-top: 10px;
+  }
+  .ubique{
+    font-size: 25px;
+    
+  }
+  .ubique img{
+    
+    width: 40%;
   }
 }
